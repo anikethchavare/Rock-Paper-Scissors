@@ -1,0 +1,65 @@
+/* Rock Paper Scissors - main.css */
+
+/* This file is licensed under the MIT License.
+
+You can view the license at
+https://github.com/anikethchavare/Rock-Paper-Scissors/blob/main/LICENSE.txt.
+
+Written by Aniketh Chavare <anikethchavare@outlook.com>, 2023 */
+
+body {
+    background-color: antiquewhite;
+}
+
+#heading {
+    font-family: Arial;
+    font-weight: bold;
+    font-size: 35px;
+    margin-top: 55px;
+}
+
+#heading-2 {
+    font-family: Arial;
+    font-size: 19px;
+}
+
+#playAgain {
+    font-family: Arial;
+    font-size: 20px;
+    display: none;
+    margin-top: 50px;
+}
+
+#form {
+    font-family: Arial;
+    margin-top: 60px;
+}
+
+#submit {
+    padding: 7px;
+    height: 35px;
+    width: 80px;
+    background-color: transparent;
+    border-radius: 4px;
+    border: 1.9px solid black;
+    cursor: pointer;
+    margin-top: 10px;
+    transition: .3s;
+}
+
+#submit:hover {
+    background-color: black;
+    color: antiquewhite;
+}
+
+#confetti-canvas {
+    position:absolute;
+    top:0;
+}
+
+.lottie {
+    width: 300px;
+    height: 300px;
+    display: none;
+    margin-top: -20px;
+}

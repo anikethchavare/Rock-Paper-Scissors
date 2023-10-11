@@ -1,0 +1,58 @@
+<!-- This file is licensed under the MIT License.
+
+You can view the license at
+https://github.com/anikethchavare/Rock-Paper-Scissors/blob/main/LICENSE.txt.
+
+Written by Aniketh Chavare <anikethchavare@outlook.com>, 2023 -->
+
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <!--Meta-->
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="description" content="This is a simple game of rock, paper, and scissors.">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta name="author" content="Aniketh Chavare">
+        <meta name="copyright" content="Aniketh Chavare">
+        <meta http-equiv="Content-Security-Policy"
+              content="script-src 'self' https://unpkg.com/@lottiefiles/lottie-player@latest/dist/lottie-player.js https://cdn.jsdelivr.net/npm/js-confetti@latest/dist/js-confetti.browser.js;
+                       style-src 'self' 'unsafe-inline';
+                       img-src 'self' *.lottiefiles.com;">
+
+        <!--Title & Favicon-->
+        <title>Rock Paper Scissors</title>
+        <link rel="icon" href="assets/favicon.png">
+
+        <!--CSS-->
+        <link rel="stylesheet" href="assets/main.css">
+    </head>
+    <body>
+        <!--Heading-->
+        <center><p id="heading">Rock Paper Scissor</p></center>
+        <center><p id="heading-2">Visit the GitHub repo <a href="https://github.com/anikethchavare/Rock-Paper-Scissors" target="_blank">here</a>.</p></center>
+
+        <!--Form-->
+        <center>
+            <form id="form">
+                <label for="choice">Your Choice:</label>
+                <input type="text" id="choice" name="choice"><br><br>
+            </form>
+            <button type="submit" form="form" value="Submit" id="submit">Submit</button>
+        </center>
+
+        <!--Want to Play Again?-->
+        <center><p id="playAgain">Want to play again? <a href="">Click Here</a></p></center>
+
+        <!--Lottie Animations-->
+        <center><lottie-player src="https://assets8.lottiefiles.com/datafiles/3RKIaYNZqu6RrV0/data.json" id="win-lottie" class="lottie" mode="bounce" background="transparent" speed="1" loop autoplay></lottie-player></center>
+        <center><lottie-player src="https://assets8.lottiefiles.com/packages/lf20_w2eyfeib.json" id="draw-lottie" class="lottie" background="transparent" speed="1" loop autoplay></lottie-player></center>
+        <br><br>
+        <center><lottie-player src="https://assets5.lottiefiles.com/packages/lf20_ilwhiuo7.json" id="lose-lottie" class="lottie" background="transparent"  speed="1" loop autoplay></lottie-player></center>
+
+        <!--JavaScript-->
+        <script src="https://unpkg.com/@lottiefiles/lottie-player@latest/dist/lottie-player.js"></script>
+        <script src="https://cdn.jsdelivr.net/npm/js-confetti@latest/dist/js-confetti.browser.js"></script>
+        <script src="assets/main.js"></script>
+    </body>
+</html>
